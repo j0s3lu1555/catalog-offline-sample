@@ -1,0 +1,42 @@
+{
+  "records": [
+    {
+      "code": "CS0123",
+      "title": "Example & Testing",
+      "credits_min": "3",
+      "credits_max": "3",
+      "source_url": "https://example.edu/courses/000123",
+      "source_sha256": "65d0c36fc4bbe2d42f388e11dcbcd1f43407aec97019098f01775ff4dab80876",
+      "adapter": "coursedog-rendered-course-v1",
+      "catalog_year": null,
+      "checked_utc": null
+    },
+    {
+      "code": "CS0499",
+      "title": "Independent Study",
+      "credits_min": "1",
+      "credits_max": "6",
+      "source_url": "https://example.edu/courses/000499",
+      "source_sha256": "7a4688163cda403311148b064e7c5819b0c228d335cd7432f858a19b49222b97",
+      "adapter": "coursedog-rendered-course-v1",
+      "catalog_year": null,
+      "checked_utc": null
+    }
+  ],
+  "review": [
+    {
+      "file": "fixture-review.html",
+      "source_url": "https://example.edu/courses/000500",
+      "reason": "Unsupported template; no data guessed"
+    }
+  ],
+  "source_count": 3,
+  "clean_count": 2,
+  "review_count": 1,
+  "network_calls": 0,
+  "limitations": [
+    "One supported rendered course template; not a universal extractor.",
+    "Catalog year is unverified and left null.",
+    "No prerequisite interpretation or full-catalog completeness claim."
+  ]
+}

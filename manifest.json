@@ -1,0 +1,17 @@
+[
+  {
+    "file": "fixture-fixed.html",
+    "url": "https://example.edu/courses/000123",
+    "checked_utc": null
+  },
+  {
+    "file": "fixture-variable.html",
+    "url": "https://example.edu/courses/000499",
+    "checked_utc": null
+  },
+  {
+    "file": "fixture-review.html",
+    "url": "https://example.edu/courses/000500",
+    "checked_utc": null
+  }
+]
